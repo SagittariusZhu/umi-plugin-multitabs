@@ -22,9 +22,7 @@ Modify `config/config.js` or `.umirc.js`
 
 ```
 export default defineConfig({
-  plugins: [
-    'umi-plugin-multitabs',
-  ],
+  ...
   multitabs: {},
 });
 ```
