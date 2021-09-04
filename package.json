@@ -1,6 +1,6 @@
 {
   "name": "umi-plugin-multitabs",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "add multitabs support to pro-layout",
   "keywords": [
     "umi",
@@ -29,9 +29,9 @@
   "dependencies": {
     "@umijs/route-utils": "^1.0.7",
     "antd": "^4.1.2",
+    "father-build": "^1.8.0",
     "lodash": "^4.17.15",
     "path-to-regexp": "1.x",
-    "father-build": "^1.8.0",
     "store": "^2.0.12"
   },
   "devDependencies": {
