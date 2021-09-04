@@ -1,0 +1,60 @@
+{
+  "name": "umi-plugin-multitabs",
+  "version": "0.0.2",
+  "description": "add multitabs support to pro-layout",
+  "keywords": [
+    "umi",
+    "plugin",
+    "multitabs"
+  ],
+  "homepage": "https://github.com/SagittariusZhu/umi-plugin-multitabs",
+  "bugs": "https://github.com/SagittariusZhu/umi-plugin-multitabs/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SagittariusZhu/umi-plugin-multitabs"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "cross-env APP_ROOT=$PWD/example umi dev",
+    "build": "father-build",
+    "test": "umi-test",
+    "prepublishOnly": "npm run build && np --no-cleanup --yolo --no-publish"
+  },
+  "main": "lib/index.js",
+  "types": "lib/types/index.d.ts",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "dependencies": {
+    "@umijs/route-utils": "^1.0.7",
+    "antd": "^4.1.2",
+    "lodash": "^4.17.15",
+    "path-to-regexp": "1.x",
+    "store": "^2.0.12"
+  },
+  "devDependencies": {
+    "@ant-design/pro-layout": "^6.15.3",
+    "@testing-library/react": "^9.4.0",
+    "@testing-library/react-hooks": "^3.2.1",
+    "@types/jest": "^25.1.2",
+    "@umijs/test": "^3.0.0-beta.1",
+    "@umijs/types": "^3.0.0-beta.7",
+    "cross-env": "^6.0.3",
+    "father-build": "^1.8.0",
+    "np": "^5.0.3",
+    "umi": "^3.5.0"
+  },
+  "peerDependencies": {
+    "@ant-design/icons": "^4.0.0",
+    "@ant-design/pro-layout": "^6.15.3",
+    "@umijs/preset-react": "^1.7.4",
+    "umi": "^3.5.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "authors": [
+    "EdwardZhu <zhuhy163@163.com> (https://github.com/SagittariusZhu)"
+  ]
+}

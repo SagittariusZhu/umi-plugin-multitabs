@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "moduleResolution": "node",
+        "jsx": "preserve",
+        "esModuleInterop": true,
+        "declaration": true
+    },
+    "include": [
+        "./src",
+    ],
+    "typings": "./typings/index.d.ts",
+    "exclude": [
+        "node_modules",
+        "build",
+        "scripts",
+        "acceptance-tests",
+        "webpack",
+        "jest",
+        "test",
+        "src/setupTests.ts",
+        "tslint:latest",
+        "tslint-config-prettier"
+    ]
+}
