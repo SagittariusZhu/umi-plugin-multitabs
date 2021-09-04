@@ -31,6 +31,7 @@
     "antd": "^4.1.2",
     "lodash": "^4.17.15",
     "path-to-regexp": "1.x",
+    "father-build": "^1.8.0",
     "store": "^2.0.12"
   },
   "devDependencies": {
@@ -41,7 +42,6 @@
     "@umijs/test": "^3.0.0-beta.1",
     "@umijs/types": "^3.0.0-beta.7",
     "cross-env": "^6.0.3",
-    "father-build": "^1.8.0",
     "np": "^5.0.3",
     "umi": "^3.5.0"
   },
