@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react';
 import React, { Component } from 'react';
 import { history } from 'umi';
 import store from 'store'
-import styles from './style.less';
+import './style.less';
 
 const { TabPane } = Tabs;
 
@@ -163,7 +163,7 @@ const TabContainer = (props) => {
     };
 
     return (
-        <div className={styles.container}>
+        <div className="antd-pro-multitabs-container">
             <Tabs
                 hideAdd
                 onChange={onChange}
